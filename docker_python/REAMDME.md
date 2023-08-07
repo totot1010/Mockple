@@ -1,4 +1,4 @@
-# Docker+Pythonで環境構築してみる
+# Docker Compose+Pythonで環境構築してみる
 
 # はじめに
 
@@ -17,14 +17,15 @@ Docker Compose version v2.13.0
 # Dockerの設定
 
 ## ファイル構成
-まず、以下のようなファイル構成を作ってください。
+まず、以下のようなファイル構成を作っていきます。
 ```
 docker_python
 ├── Dockerfile
-├── REAMDME.md
 ├── app
 │   └── sample.py
 └── docker-compose.yml
 ```
 
 ## Dockerfile
+Dockerは、Dockerfileを読み込むことで自動的にdockerimageを作成します。
+Dockerfileは、ユーザーがdockerimageを組み立てるために必要なコマンドを記載したテキストファイルです。
