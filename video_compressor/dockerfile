@@ -1,0 +1,16 @@
+# 基本イメージとしてUbuntuを指定
+FROM ubuntu:latest
+
+# 環境の更新と必要なパッケージのインストール
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y vim git && \
+    apt-get install -y python3 python3-pip
+
+WORKDIR /python
+
+# ローカルのpythonディレクトリをコンテナの/（ルート）ディレクトリにコピー
+COPY . .
+
+# コンテナ起動時に実行されるコマンド
+CMD ["bash"]

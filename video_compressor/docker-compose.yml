@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  myubuntu:
+    build: .
+    container_name: myubuntu
+    volumes:
+      - .:/python
+    tty: true
