@@ -1,13 +1,13 @@
 # PDF 変換
 
-# dockerでelasticsearchの環境構築してみた
+# docker+elasticsearchの環境構築
 
 # elasticsearchの複合検索
 
-# elasticsearchのハイライトを実装する
+# elasticsearchのハイライト
 
-# webpackを使った転送効率を測定してみた
+# webpackを使った転送効率
 
-# .nextフォルダとは？
+# .nextフォルダ？
 
-# updated_atが更新されない問題の対処法
+# updated_atが更新されない問題の対処
