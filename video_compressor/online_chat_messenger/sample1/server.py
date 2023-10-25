@@ -1,7 +1,8 @@
 import socket
 
+
 def start_udp_server():
-    host = '0.0.0.0'
+    host = "0.0.0.0"
     port = 9001
     buffer_size = 4096
 
@@ -25,6 +26,7 @@ def start_udp_server():
     except KeyboardInterrupt:
         server_socket.close()
         print("\nUDP Server Closed")
+
 
 if __name__ == "__main__":
     start_udp_server()

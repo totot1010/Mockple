@@ -17,6 +17,8 @@ def start_udp_client():
         while True:
             message = input()
             formatted_message = f"{nickname}: {message}".encode('utf-8')
+            if len(formatted_message) > 255:
+                raise ValueError("文字数が255バイトを超えています。")
             # ソケットにデータを送信
             client_socket.sendto(formatted_message, (host, port))
 
