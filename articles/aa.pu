@@ -1,0 +1,22 @@
+@startuml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+
+!includeurl ICONURL/tailwindcss.puml
+!includeurl ICONURL/nextjs.puml
+!includeurl ICONURL/vercel.puml
+!includeurl ICONURL/supabase.puml
+
+actor USER as "USERS"
+
+package "Vercel Environment" {
+    [Next.js] as NEXT
+    TAILWINDCSS - [NEXT]
+    VERCEL - [NEXT]
+}
+
+database "Supabase" as SUPABASE
+
+USER -right-> NEXT
+NEXT -right-> SUPABASE
+SUPABASE -left-> NEXT
+@enduml

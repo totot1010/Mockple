@@ -1,0 +1,12 @@
+@startuml
+!include https://raw.githubusercontent.com/Kazuhito00/PlantUML-ColorSet-Example/main/colorset/colorset00.txt
+
+start
+if (AAAA?) then (yes)
+  :BBBB \n <img:image/icon50.jpg>;
+else (no)
+  :CCCC \n <img:https://raw.githubusercontent.com/Kazuhito00/Kazuhito00/master/image/icon50.jpg>;
+  :ddd \n <img:https://cdn.discordapp.com/attachments/1180725363559637065/1200425033223381092/React-icon.svg.png?ex%253D65c621ee%2526is%253D65b3acee%2526hm%253D26c077b33e0a13fd3e7265023f5290c6c8257243b4f2aa6fd0b6e642e9b11e66%2526>;
+endif
+stop
+@enduml

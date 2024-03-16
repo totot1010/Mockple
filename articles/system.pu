@@ -1,0 +1,13 @@
+@startuml aa
+
+actor User
+
+node "Vercel" {
+  package "Database" {
+    ddd \n <img:https://cdn.discordapp.com/attachments/1180725363559637065/1200425033223381092/React-icon.svg.png?ex%253D65c621ee%2526is%253D65b3acee%2526hm%253D26c077b33e0a13fd3e7265023f5290c6c8257243b4f2aa6fd0b6e642e9b11e66%2526>;
+  }
+  folder "Folder" {
+    [File]
+  }
+}
+@enduml

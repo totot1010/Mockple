@@ -9,6 +9,7 @@ export class LoadingScene extends Phaser.Scene {
     // ロゴ画像だけは最初から表示したいので予めロード
     // Phaser3のロゴをlabs.phaser.ioから取得しているので、もし公開する際はこの部分は消してください
     this.load.image("logo", "//labs.phaser.io/assets/sprites/phaser3-logo.png");
+
   }
 
   // create()はpreload内のアセットのロードが完了したら実行される

@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="9RsPkuhTKivDwpzOASIi" name="ページ1">
+        <mxGraphModel dx="1126" dy="1364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="120" width="430" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="200" width="90" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.discordapp.com/attachments/1180725363559637065/1200430113385357423/Phaser_Logo_Web_Quality.png?ex%253D65c626a9%2526is%253D65b3b1a9%2526hm%253D8dffae76b352ae186edfe56dbf6f0a0d7d8768a9cb04a639f0a0fb80f0f0c40c%2526;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="130" width="170" height="141.55" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.discordapp.com/attachments/1180725363559637065/1200425031415648286/nextjs-logotype-light-background.png?ex%253D65c621ee%2526is%253D65b3acee%2526hm%253D6f2ec4641c9b3ce8907c30a836094c0fe554228dba515f1206563d690b663a11%2526;" vertex="1" parent="1">
+                    <mxGeometry x="338.1" y="300" width="273.8" height="55.29" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.discordapp.com/attachments/1180725363559637065/1200425032585859184/ts-logo-256.png?ex%253D65c621ee%2526is%253D65b3acee%2526hm%253D607424b01ec08bc252d51295e66e436892216bda6dc42af0f50776b58cc0815c%2526;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="130" width="150" height="150" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

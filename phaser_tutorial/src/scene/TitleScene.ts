@@ -3,6 +3,11 @@ export class TitleScene extends Phaser.Scene {
     super("title");
   }
 
+  preload() {
+    this.load.atlasXML("main", "assets/card_list.webp", "assets/card_list.xml")
+
+  }
+
   create() {
     const { width, height } = this.game.canvas;
 

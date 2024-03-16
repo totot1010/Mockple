@@ -1,0 +1,61 @@
+<!-- <TextureAtlas imagePath="club_A.png">
+    <SubTexture name="club_A" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_2" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_3" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_4" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_5" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_6" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_7" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_8" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_9" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_10" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_J" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_Q" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="club_K" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_A" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_2" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_3" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_4" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_5" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_6" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_7" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_8" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_9" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_10" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_J" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_Q" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="diamond_K" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_A" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_2" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_3" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_4" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_5" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_6" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_7" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_8" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_9" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_10" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_J" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_Q" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="heart_K" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_A" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_2" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_3" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_4" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_5" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_6" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_7" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_8" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_9" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_10" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_J" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_Q" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="spade_K" x="0" y="0", widht="124" height="124" />
+    <SubTexture name="back_card" x="0" y="0", widht="124" height="124" />
+</TextureAtlas> -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<textureAtlas imagePath="assets/card_list.webp">
+    <SubTexture name="hero" x="0" y="0" width="64" height="64"/>
+    <SubTexture name="enemy" x="64" y="0" width="64" height="64"/>
+</textureAtlas>
